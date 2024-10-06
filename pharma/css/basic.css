@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #617487;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #34495e;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.medicine-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.medicine-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.medicine-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.medicine-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #2980b9;
+}
+
+.add-to-cart-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #219952;
+}
+.view-cart-btn-container {
+    position: absolute;
+    top: 68px;
+    right: 10px;
+}
+
+.view-cart-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-cart-btn:hover {
+    background-color: #2980b9;
+}
+
+.logout-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+.remove-from-cart-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.remove-from-cart-btn:hover {
+    background-color: #c0392b;
+}
+
+.no-history {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.transaction-history-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* .approve-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.approve-btn:hover {
+    background-color: #219952;
+} */
+
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button[name='update_status'] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button[name='update_status']:hover {
+    background-color: #2980b9;
+}

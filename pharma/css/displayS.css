@@ -1,0 +1,88 @@
+/* body{
+    background-color: #b25959;
+} */
+a{
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    color: #272727;
+    font-size: 20px;
+    align-items: center;
+}
+
+table{
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    cursor: default;
+}
+
+tr:hover{
+    background-color: #FBFBF9;
+}
+
+th,td{
+    width: 350px;
+    height: 10px;
+    font-size: 20px;
+}
+
+
+
+/* .container{
+    height: 500px auto;
+    width:1000px;
+    margin-top: 20px;
+} */
+/* .box{
+    height: 5%;
+    width: 75%;
+    margin-top: 5px;
+    margin-left: 300px;
+    margin-right: 570px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+    background-color: #cfa5bf;
+    border-radius: 25px;
+   
+}
+
+.box1{
+    width:75%;
+    margin-left: 315px;
+    float: left;
+    margin-top: 30px;   
+    background-color: #cfa5bf;
+    border-radius: 10px;
+} */
+/* .expire{
+    width:55%;
+    margin-left: 315px;
+    float: left;
+    margin-top: 30px;   
+    background-color: #cfa5bf;
+    border-radius: 10px;
+} */
+
+
+
+/* fieldset{
+    width:70% auto;
+    height: 70% auto;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border:none;
+} */
+/* tr{
+    max-height: 90%;
+    padding-bottom: 5px;
+    height:auto;
+} */
+
+/* table input[value = "Delete"]{
+    background: red;
+} */
